@@ -4,8 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock - Paper - Scissors Game</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Rock - Paper - Scissors Game</h1>
+    <h1>Rock, Paper, Scissors Game</h1>
+    <!-- Main title for the game -->
+    <h2>User Choice: <span id="user-choice">-</span></h2>
+    <!-- Display for user's choice in a container-->
+    <div class="container">
+      <!-- Images for user to make a choice -->
+      <img id="rock" src="rock.png" alt="Rock" onclick="userChoice('rock')" />
+      <img
+        id="paper"
+        src="paper.png"
+        alt="Paper"
+        onclick="userChoice('paper')"
+      />
+      <img
+        id="scissors"
+        src="scissors.png"
+        alt="Scissors"
+        onclick="userChoice('scissors')"
+      />
+    </div>
+    <!-- Container for computer's choice image -->
+    <div class="choice-container">
+      <h2>Computer Choice: <span id="computer-choice">-</span></h2>
+      <!-- Display for computer's choice -->
+      <div id="computer-container" class="container"></div>
+    </div>
+    <hr />
+    <!-- Container for winner's image -->
+    <h2><< Winner >> <span id="winner"></span></h2>
+    <div id="winner-container" class="container"></div>
+    <!-- <div id="win-info"></div> -->
+    <!-- Button to play again -->
+    <h2>Result: <span id="result"></span></h2>
+    <hr />
+    <div class="background-img">
+      <h3>
+        User has <span id="user-wins">0</span> win(s) | Computer has
+        <span id="computer-wins">0</span> win(s) | Tie games
+        <span id="tie-game">0</span>
+      </h3>
+      <!-- Container for playing -->
+      <div id="play-again-container" class="container">
+        <button onclick="resetGame()">Play Again</button>
+      </div>
+    </div>
+    <!-- Script Code link -->
+    <script src="scripts.js"></script>
   </body>
 </html>

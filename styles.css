@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #555;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .choice-container {
+    margin-top: 20px;
+  }
+  img {
+    border: #4caf50;
+    padding: 2px 2px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    opacity: 0.8;
+  }
+  img:hover {
+    background-color: #9bee9b;
+  }
+  span {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  #play-again-container {
+    display: none;
+  }
+  button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #9bee9b;
+  }
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #4caf50;
+  }
+  .background-img {
+    background-image: url("rps.png");
+    background-size: 50% 50%; /* Stretch the background image to cover the entire background */
+    height: 50vh; /* Make the background cover the entire viewport height */
+    justify-content: center; /* Center horizontally */
+    background-position: center;
+    background-repeat: no-repeat;
+    border: #4caf50;
+    padding: 2px 2px;
+    margin: 2px;
