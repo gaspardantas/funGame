@@ -10,4 +10,5 @@ This code furnishes a seamless rendition of Rock-Paper-Scissors, seamlessly blen
 The game has been seamlessly integrated into an S3 bucket, offering it as a static website for public enjoyment. Dive into the fun-filled world of memory challenges by visiting this [link](http://gdfun.s3-website-us-east-1.amazonaws.com/) and immersing yourself in the excitement firsthand!
 
 Get a sneak peek into the captivating world of our game with this preview image!
-<img width="1278" alt="Screenshot 2024-04-16 at 2 09 12 PM" src="https://github.com/gaspardantas/funGame/assets/106454643/cfb54c36-eb59-487c-9b01-8ceb6324af48">
+<img width="1898" alt="Screenshot 2024-04-18 at 7 49 08 PM" src="https://github.com/gaspardantas/funGame/assets/106454643/8bb3c078-69ff-4377-9cd0-ab9a42fa09d3">
+
